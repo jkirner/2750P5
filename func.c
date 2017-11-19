@@ -4,9 +4,9 @@
 
 #include <studio.h>
 #include <string.h>
-#include "funcString.h"
+#include "func.h"
 
-void funcString(char* subStr, int start, int size, char *str[]){
+void func(char* subStr, int start, int size, char *str[]){
   int i=start+1;
   char *ptr;
   while(i<size){
